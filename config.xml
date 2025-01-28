@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IpAddressClient>127.0.0.1</IpAddressClient>
+  <IPAddressServer>192.168.1.6</IPAddressServer>
+  <PortClient>20001</PortClient>
+  <PortServer>1234</PortServer>
+  <SoundInputDeviceNameClient />
+  <SoundOutputDeviceNameClient />
+  <SoundInputDeviceNameServer>CABLE Output (VB-Audio Virtual </SoundInputDeviceNameServer>
+  <SoundOutputDeviceNameServer>CABLE Input (VB-Audio Virtual C</SoundOutputDeviceNameServer>
+  <SamplesPerSecondClient>8000</SamplesPerSecondClient>
+  <BitsPerSampleClient>16</BitsPerSampleClient>
+  <ChannelsClient>1</ChannelsClient>
+  <SamplesPerSecondServer>5000</SamplesPerSecondServer>
+  <BitsPerSampleServer>16</BitsPerSampleServer>
+  <ChannelsServer>1</ChannelsServer>
+  <UseJitterBufferClientRecording>true</UseJitterBufferClientRecording>
+  <UseJitterBufferServerRecording>true</UseJitterBufferServerRecording>
+  <JitterBufferCountServer>20</JitterBufferCountServer>
+  <JitterBufferCountClient>20</JitterBufferCountClient>
+  <FileName />
+  <LoopFile>false</LoopFile>
+  <MuteClientPlaying>false</MuteClientPlaying>
+  <ServerNoSpeakAll>false</ServerNoSpeakAll>
+  <ClientNoSpeakAll>false</ClientNoSpeakAll>
+  <MuteServerListen>true</MuteServerListen>
+</Configuration>
